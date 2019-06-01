@@ -1,0 +1,35 @@
+{
+    "name": "example-mix-bot",
+    "version": "1.0.0",
+    "description": "A template bot to get you started using the Mix bot framework",
+    "main": "dist/index.js",
+    "scripts": {
+        "start": "npm run build && node dist/app.js",
+        "build": "tsc",
+        "config": "node scripts/configure.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/discord-mix/example-bot.git"
+    },
+    "keywords": [
+        "discord",
+        "discord-bot"
+    ],
+    "author": "Atlas <cloudrex@outlook.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/discord-mix/example-bot/issues"
+    },
+    "homepage": "https://github.com/discord-mix/example-bot#readme",
+    "dependencies": {
+        "d.mix": "^1.5.2-0",
+        "dotenv": "^6.1.0"
+    },
+    "devDependencies": {
+        "@types/mongodb": "^3.1.17",
+        "@types/node": "^10.12.18",
+        "input": "^1.0.1",
+        "typescript": "^3.1.3"
+    }
+}
