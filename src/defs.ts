@@ -10,4 +10,5 @@ export interface Env {
     readonly COMMANDS_DIR: string;
     readonly SERVICES_DIR: string;
     readonly ION_DIR: string;
+    readonly CIRCLE_CI_KEY: string;
 }
